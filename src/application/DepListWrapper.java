@@ -3,9 +3,6 @@ package application;
 import java.util.List;
 
 import javax.xml.bind.annotation.XmlRootElement;
-
-import javafx.collections.ObservableList;
-
 import javax.xml.bind.annotation.XmlElement;
 
 @XmlRootElement(name="Dep")
