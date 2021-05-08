@@ -120,7 +120,7 @@
                                     <MenuItem mnemonicParsing="false" onAction="#handleNew" text="Nouveau" />
                                 <MenuItem mnemonicParsing="false" onAction="#handleOpen" text="Ouvrir" />
                                     <MenuItem mnemonicParsing="false" onAction="#handleSave" text="Sauvgarder" />
-                                    <MenuItem mnemonicParsing="false" onAction="#handleSaveAs" text="Sauvgarder" />
+                                    <MenuItem mnemonicParsing="false" onAction="#handleSaveAs" text="Sauvgarder Sous" />
                               </items>
                             </Menu>
                             <Menu mnemonicParsing="false" text="Edit">
@@ -187,7 +187,7 @@
                               </Label>
                               <TextField fx:id="DAT" GridPane.columnIndex="1" />
                               <TextField fx:id="DHT" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                              <TextField fx:id="DST" onAction="#verifNum" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <TextField fx:id="DST" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                               <TextField fx:id="DSupT" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                            </children>
                         </GridPane>
@@ -201,7 +201,7 @@
                         <Button fx:id="MB" layoutX="218.0" layoutY="584.0" mnemonicParsing="false" onAction="#ModifierDep" prefWidth="95.0" text="Modifier" />
                         <Button fx:id="EB" layoutX="320.0" layoutY="584.0" mnemonicParsing="false" onAction="#clearFields" prefHeight="27.0" prefWidth="95.0" text="Effacer" />
                         <Button fx:id="RB" layoutX="423.0" layoutY="584.0" mnemonicParsing="false" onAction="#clearDep" text="Recomencer" />
-                        <Button fx:id="FB2" layoutX="564.0" layoutY="638.0" mnemonicParsing="false" onAction="#Fermer" prefHeight="29.0" prefWidth="62.0" text="Fermer">
+                        <Button fx:id="FB2" layoutX="532.0" layoutY="637.0" mnemonicParsing="false" onAction="#Fermer" prefHeight="29.0" prefWidth="86.0" text="Fermer">
                            <font>
                               <Font name="Avenir Heavy" size="13.0" />
                            </font>

@@ -335,24 +335,28 @@ public class SampleController implements Initializable {
 	public void verifNum() 
 	{
 		DAT.textProperty().addListener((observable,oldValue,newValue)->{
+			
 			if(!newValue.matches("^[0-9](\\.[0-9]+)?&&")) {
 				DAT.setText(newValue.replaceAll("[^\\d*]", ""));
 			}
 		});
 
 		DHT.textProperty().addListener((observable,oldValue,newValue)->{
+		 
 			if(!newValue.matches("^[0-9](\\.[0-9]+)?&&")) {
 				DHT.setText(newValue.replaceAll("[^\\d*]", ""));
 			}
 		});
 
 		DST.textProperty().addListener((observable,oldValue,newValue)->{
+			
 			if(!newValue.matches("^[0-9](\\.[0-9]+)?&&")) {
 				DST.setText(newValue.replaceAll("[^\\d*]", ""));
 			}
 		});
 
 		DSupT.textProperty().addListener((observable,oldValue,newValue)->{
+			
 			if(!newValue.matches("^[0-9](\\.[0-9]+)?&&")) {
 				DSupT.setText(newValue.replaceAll("[^\\d*]", ""));
 			}
