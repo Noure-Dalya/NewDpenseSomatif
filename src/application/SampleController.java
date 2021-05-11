@@ -27,7 +27,8 @@ import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
 public class SampleController implements Initializable {
-
+	
+	 
 	// Table View
 	@FXML
 	private TableView<Dep> TV;
@@ -89,6 +90,7 @@ public class SampleController implements Initializable {
 	{
 		return DepData;
 	}
+	
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) 
