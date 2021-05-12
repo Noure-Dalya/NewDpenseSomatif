@@ -98,10 +98,10 @@ public class SampleController implements Initializable {
 	{
 		// Pour attribuer les valeurs aux colonnes du TableView
 
-		NC.setCellValueFactory(new PropertyValueFactory <> ("Nourriture"));
-		VC.setCellValueFactory(new PropertyValueFactory <> ("Habillement"));
-		EC.setCellValueFactory(new PropertyValueFactory <> ("Extra"));
-		SC.setCellValueFactory(new PropertyValueFactory <> ("Service"));
+		NC.setCellValueFactory(new PropertyValueFactory <> ("NC"));
+		VC.setCellValueFactory(new PropertyValueFactory <> ("VC"));
+		EC.setCellValueFactory(new PropertyValueFactory <> ("SC"));
+		SC.setCellValueFactory(new PropertyValueFactory <> ("EC"));
 
 		// Bouttons boolean true:
 

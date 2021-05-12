@@ -15,7 +15,7 @@ public class Main extends Application {
 			Scene scene = new Scene(root);
 			scene.getStylesheets().add(getClass().getResource("bootstrap3.css").toExternalForm());
 			primaryStage.setScene(scene);
-			primaryStage.setTitle("Dep");
+			primaryStage.setTitle("Suivez Vos Depense");
 			primaryStage.show();
 		} catch(Exception e) {
 			e.printStackTrace();
